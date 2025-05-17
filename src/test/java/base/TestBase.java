@@ -53,6 +53,7 @@ public class TestBase
 		if (driver == null) {
 
 		try {
+			//Getting file from the location
 			fis = new FileInputStream(
 					System.getProperty("user.dir" )+ "\\src\\test\\resources\\properties\\Config.properties");
 		} catch (FileNotFoundException e) {
