@@ -39,7 +39,7 @@ public class TestBase
 	public  Properties OR = new Properties();
 	public  FileInputStream fis;
 	public  Logger log = Logger.getLogger(TestBase.class);
-	public  Assert asrt;
+
 	public  ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\TestExecutionDataMyTime.xlsx");
 	public  WebDriverWait wait;
 	public  WebElement dropdown;

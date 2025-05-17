@@ -15,7 +15,7 @@ public class Datautil extends TestBase {
 	public static String screenshotpath;
 	public static String screenshotName;
 
-	@DataProvider(name = "dp")
+	@DataProvider(name="dp")
 	public Object[][] getData(Method m) throws InvalidFormatException, IOException // Method gets the name of the method
 																				// kept same as Method Name
 	{

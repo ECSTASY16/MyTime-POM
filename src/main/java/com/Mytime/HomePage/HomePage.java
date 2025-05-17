@@ -17,10 +17,11 @@ public class HomePage extends BasePage {
 
 	@FindBy(xpath = "//*[@id=\"content-wrap\"]/div/h2/p")
 	public WebElement verifyName;
-
+	
 	public String verifyUsername(String usrname)
 
 	{ 
+		
 		String expusrname=verifyName.getText();
 		String actusername=expusrname.toString();
 
