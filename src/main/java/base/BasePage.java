@@ -8,7 +8,7 @@ public class BasePage {
 
 	public WebDriver driver;
 
-
+//Chnages
 public BasePage(WebDriver driver) {
 		this.driver = driver;
 	PageFactory.initElements(driver, this);
